@@ -1,0 +1,16 @@
+{
+  "name": "mocha-matrix",
+  "repo": "visionmedia/mocha-matrix",
+  "description": "Mocha matrix test reporter for the browser",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "mocha-matrix.css"
+  ]
+}
