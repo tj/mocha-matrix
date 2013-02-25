@@ -3,7 +3,7 @@
   "repo": "visionmedia/mocha-matrix",
   "description": "Mocha matrix test reporter for the browser",
   "version": "0.0.1",
-  "keywords": [],
+  "keywords": ["mocha", "test", "reporter"],
   "dependencies": {},
   "development": {},
   "license": "MIT",
