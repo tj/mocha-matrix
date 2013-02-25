@@ -1,5 +1,11 @@
 
 /**
+ * Expose `Matrix`.
+ */
+
+module.exports = Matrix;
+
+/**
  * Initialize a new `Matrix` reporter.
  *
  * @param {Runner} runner

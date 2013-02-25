@@ -3,13 +3,29 @@
 
   Mocha matrix test reporter for the browser.
 
+  ![mocha matrix reporter](http://i.cloudup.com/PSA0dp2vFi24GEh.png)
+
 ## Installation
 
-    $ component install visionmedia/mocha-matrix
+  If you're using [component](https://github.com/component/component) simply
+  add mocha-matrix as a dev dependency:
 
-## API
+```
+$ component install --dev visionmedia/mocha-matrix
+```
 
+  Then tell mocha to use the reporter:
 
+```js
+mocha.setup({ ui: 'bdd', reporter: require('matrix') })
+```
+
+  If you're not using component add the `./build` files to
+  your page and tell mocha to use the reporter:
+
+```js
+mocha.setup({ ui: 'bdd', reporter: Matrix })
+```
 
 ## License
 
