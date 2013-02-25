@@ -1,7 +1,7 @@
 
 # mocha-matrix
 
-  Mocha matrix test reporter for the browser
+  Mocha matrix test reporter for the browser.
 
 ## Installation
 
@@ -9,7 +9,7 @@
 
 ## API
 
-   
+
 
 ## License
 
