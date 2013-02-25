@@ -1,0 +1,59 @@
+#mocha {
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 80px;
+}
+
+#mocha .test {
+  display: block;
+  margin: 1px;
+  float: left;
+  width: 25px;
+  height: 25px;
+  background: #f8f8f8;
+  border-radius: 2px;
+  -webkit-transform: scale(.2);
+  -moz-transform: scale(.2);
+  transform: scale(.2);
+  -webkit-transition: -webkit-transform 200ms, background-color 150ms;
+  -moz-transition: -moz-transform 200ms, background-color 150ms;
+  transition: transform 200ms, background-color 150ms;
+}
+
+#mocha .fail.show:hover {
+  background: #f00;
+}
+
+#mocha .test.show {
+  background: #eee;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+}
+
+#mocha .fail.show {
+  background: #c00;
+}
+
+#mocha .test:hover {
+  background: #ddd;
+}
+
+#mocha .errors {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  float: left;
+  width: 100%;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+#mocha .errors.show {
+  opacity: 1;
+}
+
+#mocha .errors li {
+  margin: 50px 15px;
+  list-style: none;
+}
