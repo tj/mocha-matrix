@@ -27,6 +27,10 @@ mocha.setup({ ui: 'bdd', reporter: require('visionmedia-mocha-matrix') })
 mocha.setup({ ui: 'bdd', reporter: Matrix })
 ```
 
+## Videos
+
+  See it in [action](http://i.cloudup.com/drLhanRIDq.mov).
+
 ## License
 
   MIT
